@@ -1,0 +1,18 @@
+# Nmap 7.94SVN scan initiated Mon Oct 20 12:59:12 2025 as: nmap -sS --reason -p 22,80,443 -oN nmap/nmap_filtered_common_ports.txt 192.168.1.62 192.168.1.63
+Nmap scan report for 192.168.1.62
+Host is up, received reset ttl 255 (0.00042s latency).
+
+PORT    STATE    SERVICE REASON
+22/tcp  filtered ssh     no-response
+80/tcp  filtered http    no-response
+443/tcp filtered https   no-response
+
+Nmap scan report for 192.168.1.63
+Host is up, received reset ttl 255 (0.00096s latency).
+
+PORT    STATE    SERVICE REASON
+22/tcp  filtered ssh     no-response
+80/tcp  filtered http    no-response
+443/tcp filtered https   no-response
+
+# Nmap done at Mon Oct 20 12:59:15 2025 -- 2 IP addresses (2 hosts up) scanned in 2.87 seconds

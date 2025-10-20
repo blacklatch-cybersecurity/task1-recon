@@ -1,0 +1,7 @@
+*.key
+*.pem
+secrets/
+.vscode/
+*.log
+# Uncomment to ignore big pcaps:
+# wireshark/*.pcap
